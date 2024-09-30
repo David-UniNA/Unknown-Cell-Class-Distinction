@@ -1,4 +1,4 @@
-# Open-set recognition of cell snapshots via auxillary open set risk (AOSR)
+# Open-set recognition of cell snapshots via auxillary open set risk (AOSR) approach
 
 ![image](https://github.com/user-attachments/assets/8b0ce46c-94cd-4120-a721-27eed86313ac)
 
