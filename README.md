@@ -1,13 +1,16 @@
-Open-set recognition of cell snapshots
-Neural network-based image classification is widely used in life science applications. However, it is essential to extrapolate a correct classification method for unknown images, where no prior knowledge can be utilised. Under a closed-set assumption,
+Open-set recognition of cell snapshots via auxillary open set risk (AOSR)
 
-![image](https://github.com/user-attachments/assets/3e21b71f-e920-4b0e-b7a2-163a3789169e)
 
-unknown images (black dots) will be inevitably misclassified, but this can be genuinely overcome choosing an open-set classification approach,
+Neural Networks show high prediction performance for known classes (aslo called closed-set assumption), but struggles when unknown image classes need to be identified. In such a scenario no prior knowledge of the unknown image class can be used for the model training, which inevitably results in a misclassification. 
+
+![image](https://github.com/user-attachments/assets/3e21b71f-e920-4b0e-b7a2-163a3789169e) (Misclassification of unknown image class, black dots)
+
+To overcome the hurdle, of identifying unknown cell classes, we must first define an in-distribution of known classes to afterwards detect out-of-distribution images as unknowns. 
 
 ![image](https://github.com/user-attachments/assets/50b4072c-5fe0-45cb-b823-1062be6d7b41)
 
-which first generates an in-distribution of identified images to successively discriminate out-of-distribution images. The testing of such image classification for single cell applications in life science scenarios has yet to be done but could broaden our expertise in quantifying the influence of prediction uncertainty in deep learning. In this framework, we implemented the open-set concept on scattering snapshots of living cells to distinguish between unknown and known cell classes, targeting four different known monoblast cell classes (un-polarized, pro-inflammatory and anti-inflammatory Macrophages as well as Monocytes) and a single tumoral unknown monoblast cell line (THP1).
+Ones, such a new image class is identified, we can retrain our image classifier with the obtained knowledge, so we dynamically update the image class database. We applied this measurement approach to scattering pattern snapshots (images) of different classes of living cells to distinguish between unknown and known cell classes, targeting four different known monoblast cell classes (un-polarized, pro-inflammatory and anti-inflammatory Macrophages as well as Monocytes) and a single tumoral unknown monoblast cell line (THP1).
+
 
 
 Citations:
