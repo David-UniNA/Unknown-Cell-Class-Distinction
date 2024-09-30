@@ -1,4 +1,4 @@
-Open-set recognition of cell snapshots via auxillary open set risk (AOSR)
+# Open-set recognition of cell snapshots via auxillary open set risk (AOSR)
 
 
 Neural Networks show high prediction performance for known classes (aslo called closed-set assumption), but struggles when unknown image classes need to be identified. In such a scenario no prior knowledge of the unknown image class can be used for the model training, which inevitably results in a misclassification. 
@@ -12,13 +12,13 @@ To overcome the hurdle, of identifying unknown cell classes, we must first defin
 Ones, such a new image class is identified, we can retrain our image classifier with the obtained knowledge, so we dynamically update the image class database. We applied this measurement approach to scattering pattern snapshots (images) of different classes of living cells to distinguish between unknown and known cell classes, targeting four different known monoblast cell classes (un-polarized, pro-inflammatory and anti-inflammatory Macrophages as well as Monocytes) and a single tumoral unknown monoblast cell line (THP1).
 
 
-Working flow of unknown cell class distinction:
- 1) CLOSED-SET classification
+## Working flow of unknown cell class distinction:
+ ### 1) CLOSED-SET classification
    - load a dataset of known image classes (MACp0, MACp0, MACp0, MON)
    - define a closed-set Neural Network, which classify the dataset
    - train the classifier and save the model
      
- 2) OPEN-SET classification
+ ### 2) OPEN-SET classification
    - load a dataset for known and unknown (THP) image classes
    - load the closed-set model
    - Use the Ecoder information of the closed-set model as input for the open-set recognition
