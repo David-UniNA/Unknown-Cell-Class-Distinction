@@ -12,6 +12,8 @@ To overcome the hurdle, of identifying unknown cell classes, we must first defin
 Ones, such a new image class is identified, we can retrain our image classifier with the obtained knowledge, so we dynamically update the image class database. We applied this measurement approach to scattering pattern snapshots (images) of different classes of living cells to distinguish between unknown and known cell classes, targeting four different known monoblast cell classes (un-polarized, pro-inflammatory and anti-inflammatory Macrophages as well as Monocytes) and a single tumoral unknown monoblast cell line (THP1).
 
 
-If you use any methods, datasets, or specific algorithms, please cite the following work.
+If you use any method, dataset, or specific algorithm, please cite the following work.
 
     Cioffi G, Dannhauser D, et al. Biomed Opt Express., 14(10):5060-5074, 2023. doi: 10.1364/BOE.492028
+
+The Python scripts are inspired by the work of Fang et al. from 2021 with the title, Learning bounds for open-set learning (https://proceedings.mlr.press/v139/fang21c.html)
