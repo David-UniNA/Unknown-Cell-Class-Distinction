@@ -7,7 +7,7 @@ Neural Networks show high prediction performance for known classes (aslo called 
 
 To overcome the hurdle, of identifying unknown cell classes, we must first define an in-distribution of known classes to afterwards detect out-of-distribution images as unknowns. 
 
-![image](https://github.com/user-attachments/assets/50b4072c-5fe0-45cb-b823-1062be6d7b41)
+![image](https://github.com/user-attachments/assets/50b4072c-5fe0-45cb-b823-1062be6d7b41) (Out-of-distibution area for unknown image destinction)
 
 Ones, such a new image class is identified, we can retrain our image classifier with the obtained knowledge, so we dynamically update the image class database. We applied this measurement approach to scattering pattern snapshots (images) of different classes of living cells to distinguish between unknown and known cell classes, targeting four different known monoblast cell classes (un-polarized, pro-inflammatory and anti-inflammatory Macrophages as well as Monocytes) and a single tumoral unknown monoblast cell line (THP1).
 
