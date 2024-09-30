@@ -15,4 +15,4 @@ Ones, such a new image class is identified, we can retrain our image classifier 
 
 If you use any methods, datasets, or specific algorithms, please cite the following work.
 
-Cioffi G, Dannhauser D, et al. Biomed Opt Express., 14(10):5060-5074, 2023. doi: 10.1364/BOE.492028
+    Cioffi G, Dannhauser D, et al. Biomed Opt Express., 14(10):5060-5074, 2023. doi: 10.1364/BOE.492028
