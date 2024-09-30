@@ -1,6 +1,7 @@
 # Open-set recognition of cell snapshots via auxillary open set risk (AOSR)
 
-![image](https://github.com/user-attachments/assets/68f0f471-d834-4b14-b396-bc4cc6439f38)
+![image](https://github.com/user-attachments/assets/8b0ce46c-94cd-4120-a721-27eed86313ac)
+
 
 Neural Networks show high prediction performance for known classes (aslo called closed-set assumption), but struggles when unknown image classes need to be identified. In such a scenario no prior knowledge of the unknown image class can be used for the model training, which inevitably results in a misclassification. 
 
