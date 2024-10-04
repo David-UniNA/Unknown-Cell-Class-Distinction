@@ -2,3 +2,4 @@ Zip files of DataSET
 
 Files should be unzipped in the 'ínput_folder' location indicated in the AOSR_OpenSet_Training_Dannhauser.py file (or AOSR_ClosedSET_Training_Dannhauser.py).
 First time running one of the previous mentioned Python scripts need 'execute_split=True'.
+Aferwards the user should set 'execute_split=False'.
