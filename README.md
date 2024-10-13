@@ -23,7 +23,7 @@ Ones, such a new image class is identified, we can retrain our image classifier 
  ### 2) OPEN-SET classification
    - load a dataset for known and unknown (THP) image classes
    - load the closed-set model
-  - use the Ecoder information of the closed-set model as input for the open-set recognition
+ ** - use the Ecoder information of the closed-set model as input for the open-set recognition  **
   - initialize the auxillary domain
   - construct auxiliary domain
    - define range of beta (hyperparameter for open-set recognition)
